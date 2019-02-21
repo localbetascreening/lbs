@@ -48,6 +48,5 @@ optional arguments:
 　--data　D　　　data to be screened (required)<br>
 　--model　M　　filename of the LBS model trained. the default is lbsmodel.npz
               (optional)<br>
-　--result　R　　　filename to keep the result of screening, index of screened
-              samples are kept. the default is ScreenResult.txt (optional)<br>
+　--result　R　　　filename to keep the result of screening. the default is ScreenResult.txt (optional)<br>
 
