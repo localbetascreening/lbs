@@ -179,9 +179,9 @@ def lbsmodel(X,Y,rmax,outfile,ncpu):
 def main():
     parser = argparse.ArgumentParser(description='Training by LBS (Local Beta Screening)')
     parser.add_argument('--data', type=str, metavar='D', help='dataset to be trained, the last column is regarded as label (required)')
-    parser.add_argument('--ne', type=int, default=2000000, metavar='N', help='maximum number of feature subsets to be evaluated in each iteration. the default is 2000000 (optional)')
-    parser.add_argument('--out', type=str, default='lbsmodel', metavar='O', help='filename to keep the output of training. the default is lbsmodel.npz (optional)')
-    parser.add_argument('--cpu', type=int, default=0, metavar='C', help='the number of CPUs to use. the default is to use all of CPUs available (optional)') 
+    parser.add_argument('--ne', type=int, default=2000000, metavar='N', help='maximum number of feature subsets to be evaluated in each iteration, default is 2000000 (optional)')
+    parser.add_argument('--out', type=str, default='lbsmodel', metavar='O', help='filename to keep the output of training, default is lbsmodel.npz (optional)')
+    parser.add_argument('--cpu', type=int, default=0, metavar='C', help='the number of CPUs to use, default is to use all of CPUs available (optional)') 
     args = parser.parse_args()
     print('Reading the data...')
     data=np.loadtxt(args.data,delimiter=',',dtype=np.float32)
