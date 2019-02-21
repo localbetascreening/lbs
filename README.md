@@ -1,4 +1,4 @@
-# LBS
+# LBS　(Local Beta Screening)
 
 LBS offers a general framework for screening in high dimensional data. It can take advantage of multiple CPU cores to significantly accelerate the running time.
 
@@ -19,9 +19,9 @@ python lbsPredict.py --data 'data/integrase.csv.gz' --model lbsmodel.npz --resul
 
 #### lbsTrain.py
 
-Training by LBS (Local Beta Screening)
+function:　　training by LBS
 
-usage: lbsTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
+usage:　　lbsTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
 optional arguments:
 
@@ -38,9 +38,9 @@ optional arguments:
 
 #### lbsPredict.py
 
-Screening by trained LBS (Local Beta Screening)
+function:　　screening by trained LBS
 
-usage: lbsPredict.py [-h] [--data D] [--model M] [--result R]
+usage:　　lbsPredict.py [-h] [--data D] [--model M] [--result R]
 
 optional arguments:
 
