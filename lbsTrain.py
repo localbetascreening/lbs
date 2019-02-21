@@ -177,7 +177,7 @@ def lbsmodel(X,Y,rmax,outfile,ncpu):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Training by LBS (Local Beta Screening)')
+    parser = argparse.ArgumentParser(description='Training by LBS')
     parser.add_argument('--data', type=str, metavar='D', help='dataset to be trained, the last column is regarded as label (required)')
     parser.add_argument('--ne', type=int, default=2000000, metavar='N', help='maximum number of feature subsets to be evaluated in each iteration, default is 2000000 (optional)')
     parser.add_argument('--out', type=str, default='lbsmodel', metavar='O', help='filename to keep the output of training, default is lbsmodel.npz (optional)')
