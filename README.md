@@ -19,9 +19,9 @@ python lbsPredict.py --data 'data/integrase.csv.gz' --model lbsmodel.npz --resul
 
 #### lbsTrain.py
 
-function:　　training by LBS
+function:　training by LBS
 
-usage:　　lbsTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
+usage:　lbsTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
 optional arguments:
 
@@ -29,24 +29,24 @@ optional arguments:
  　--data　D　　　data to be trained, the last column is regarded as label
               (required)<br>
  　--ne　N　　　　maximum number of feature subsets to be evaluated in each
-              iteration,　default is 2000000 (optional)<br>
- 　--out　O　　　　filename to keep the output of training,　default is
+              iteration, default is 2000000 (optional)<br>
+ 　--out　O　　　　filename to keep the output of training, default is
               lbsmodel.npz (optional)<br>
- 　--cpu　C　　　　the number of CPUs to use,　default is to use all of CPUs
+ 　--cpu　C　　　　the number of CPUs to use, default is to use all of CPUs
               available (optional)<br>
 
 
 #### lbsPredict.py
 
-function:　　screening by trained LBS
+function:　screening by trained LBS
 
-usage:　　lbsPredict.py [-h] [--data D] [--model M] [--result R]
+usage:　lbsPredict.py [-h] [--data D] [--model M] [--result R]
 
 optional arguments:
 
 　-h,　--help　　　show this help message and exit<br>
 　--data　D　　　data to be screened (required)<br>
-　--model　M　　filename of the LBS model trained,　default is lbsmodel.npz
+　--model　M　　filename of the LBS model trained, default is lbsmodel.npz
               (optional)<br>
-　--result　R　　　filename to keep the result of screening,　default is ScreenResult.txt (optional)<br>
+　--result　R　　　filename to keep the result of screening, default is ScreenResult.txt (optional)<br>
 
