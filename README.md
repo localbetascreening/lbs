@@ -25,7 +25,7 @@ usage: lbsTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
 optional arguments:
 
-  -h, --help  show this help message and exit<br>
+ 　-h, --help  show this help message and exit<br>
   --data D    data to be trained, the last column is regarded as label
               (required)<br>
   --ne N      maximum number of feature subsets to be evaluated in each
