@@ -5,12 +5,12 @@ LBS is a general framework for screening in high dimensional data. It can take a
 
 ## Example
 
-## to train a screening model by LBS on the HIV-1 integrase dataset:
+## Training a screening model by LBS on the HIV-1 integrase dataset:
 
 python lbsTrain.py --data 'data/integrase.csv.gz' --out lbsmodel.npz
 
 
-## to screen samples on test data :
+## Screening samples on test data :
 
 python lbsPredict.py --data 'data/integrase.csv.gz' --model lbsmodel.npz --result SreenResult.txt
 
