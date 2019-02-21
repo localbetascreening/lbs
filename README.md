@@ -44,10 +44,10 @@ usage: lbsPredict.py [-h] [--data D] [--model M] [--result R]
 
 optional arguments:
 
-  -h, --help  show this help message and exit<br>
-  --data D    data to be screened (required)<br>
-  --model M   filename of the LBS model trained. the default is lbsmodel.npz
+　-h,　--help　　　show this help message and exit<br>
+　--data　D　　　data to be screened (required)<br>
+　--model　M　　　filename of the LBS model trained. the default is lbsmodel.npz
               (optional)<br>
-  --result R  filename to keep the result of screening, index of screened
+　--result　R　　　filename to keep the result of screening, index of screened
               samples are kept. the default is ScreenResult.txt (optional)<br>
 
