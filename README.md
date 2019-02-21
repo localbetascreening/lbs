@@ -23,7 +23,7 @@ Training by LBS (Local Beta Screening)
 
 usage: lbsTrain.py [-h] [--data D] [--ne N] [--out O] [--cpu C]
 
-optional arguments:
+optional arguments:<br>
   -h, --help  show this help message and exit
   --data D    data to be trained, the last column is regarded as label
               (required)
