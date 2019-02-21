@@ -1,4 +1,4 @@
-# LBS　(Local Beta Screening)
+# LBS (Local Beta Screening)
 
 LBS offers a general framework for screening in high dimensional data. It can take advantage of multiple CPU cores to significantly accelerate the running time.
 
