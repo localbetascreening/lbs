@@ -17,7 +17,7 @@ python lbsPredict.py --data 'data/integrase.csv.gz' --model lbsmodel.npz --resul
 
 ## Usage
 
-#### *`lbsTrain.py`
+#### * `lbsTrain.py`
 
 function:　training by LBS
 
@@ -36,7 +36,7 @@ optional arguments:
               available (optional)<br>
 
 
-#### `lbsPredict.py`
+#### * `lbsPredict.py`
 
 function:　screening by trained LBS
 
