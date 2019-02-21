@@ -38,7 +38,7 @@ optional arguments:
 
 #### lbsPredict.py
 
-function:　screening by trained LBS
+function:　screening using the model trained
 
 usage:　lbsPredict.py [-h] [--data D] [--model M] [--result R]
 
