@@ -17,7 +17,7 @@ python lbsPredict.py --data 'data/integrase.csv.gz' --model lbsmodel.npz --resul
 
 ## Usage
 
-lbsTrain.py
+#### lbsTrain.py
 
 Training by LBS (Local Beta Screening)
 
@@ -36,7 +36,7 @@ optional arguments:
               available (optional)<br>
 
 
-lbsPredict.py
+#### lbsPredict.py
 
 Screening by trained LBS (Local Beta Screening)
 
