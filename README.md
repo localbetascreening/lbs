@@ -1,6 +1,6 @@
 # LBS
 
-LBS is a general framework for screening in high dimensional data. It can take advantage of multiple CPU cores to significantly accelerate the running time.
+LBS offers a general framework for screening in high dimensional data. It can take advantage of multiple CPU cores to significantly accelerate the running time.
 
 
 ## Example
