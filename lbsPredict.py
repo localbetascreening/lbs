@@ -2,10 +2,10 @@ import numpy as np
 import argparse
 
 def main():
-    parser = argparse.ArgumentParser(description='Screening by trained LBS (Local Beta Screening)')
+    parser = argparse.ArgumentParser(description='Screening by trained LBS')
     parser.add_argument('--data', type=str, metavar='D', help='data to be screened (required)')
-    parser.add_argument('--model', type=str, default='lbsmodel', metavar='M', help='filename of the LBS model trained. the default is lbsmodel.npz (optional)')
-    parser.add_argument('--result', type=str, default='ScreenResult', metavar='R', help='filename to keep the result of screening, index of screened samples are kept. the default is ScreenResult.txt (optional)')
+    parser.add_argument('--model', type=str, default='lbsmodel', metavar='M', help='filename of the LBS model trained, default is lbsmodel.npz (optional)')
+    parser.add_argument('--result', type=str, default='ScreenResult', metavar='R', help='filename to keep the result of screening, default is ScreenResult.txt (optional)')
     args = parser.parse_args()
     if args.result[-4:]!='.txt':
         args.result=args.result+'.txt'
