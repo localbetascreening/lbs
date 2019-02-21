@@ -50,6 +50,3 @@ optional arguments:
               (optional)<br>
 　--result　R　　　filename to keep the result of screening, default is ScreenResult.txt (optional)<br>
 
-## Contact
-
-Email: daiwx2002@163.com
