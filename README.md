@@ -10,7 +10,7 @@ LBS is a general framework for screening in high dimensional data. It can take a
 python lbsTrain.py --data 'data/integrase.csv.gz' --out lbsmodel.npz
 
 
-## Screening samples on test data :
+## Screening on test data with  the trained model:
 
 python lbsPredict.py --data 'data/integrase.csv.gz' --model lbsmodel.npz --result SreenResult.txt
 
